@@ -26,3 +26,9 @@
    --font-size-body: 1rem;
 
 }
+
+body{
+    color: var(--color-gray-dark);
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+}
