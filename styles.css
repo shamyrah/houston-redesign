@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;  
 }
+:root {
+   --color-blue-base: hsl(211, 42%, 35%);
+   --color-blue-light: hsl(210, 35%, 93%);
+   --color-blue-dark: hsl(211, 48%, 21%);
+   --color-gold-base: hsl(30, 42%, 32%);
+   --color-gold-light: hsl(30, 50%, 96%);
+   --color-gold-dark: hsl(31, 51%, 12%);
+   --color-gray-base: hsl(0, 0%, 35%);
+   --color-gray-light: hsl(0, 0%, 95%);
+   --color-gray-dark: hsl(0, 0%, 15%);
+   --color-red-base: hsl(0, 100%, 35%);
+   --color-red-light: hsl(0, 100%, 98%);
+   --color-red-dark: hsl(0, 100%, 22%);
+   --color-white: hsl(0, 0%, 100%);
+
+   --font-family: "Inter", sans-serif;
+
+   --font-size-h1: 2rem;
+   --font-size-h2: 1.5rem;
+   --font-size-h3: 1.125rem;
+   --font-size-body: 1rem;
+
+}
