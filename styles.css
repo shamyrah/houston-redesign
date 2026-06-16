@@ -31,6 +31,7 @@ body{
     color: var(--color-gray-dark);
     font-family: var(--font-family);
     font-size: var(--font-size-body);
+    background-color: var(--color-gray-light);
 }
 
 
@@ -40,8 +41,35 @@ header {
     height: 80px;
     background-color: var(--color-blue-base);
     align-items: center;
+    padding: 0 24px; 
 }
 
 header a {
     color: var(--color-white);
+    text-decoration: none;
+}
+
+#hero {
+    background-color: var(--color-white);
+    padding: 48px 24px;
+
+}
+
+#hero h1 {
+    font-size: var(--font-size-h1);
+}
+
+#hero h2 {
+    font-size: var(--font-size-h2);
+}
+
+.service-card {
+    background-color: var(--color-white);
+    padding: 24px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.service-card.primary {
+    background-color: var(--color-blue-light);
 }
