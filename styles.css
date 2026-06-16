@@ -33,13 +33,15 @@ body{
     font-size: var(--font-size-body);
 }
 
-header nav {
-    background-color: var(--color-blue-base);
-    color: var(--color-white);
-    height: 80px;
-}
 
 header {
     display: flex;
     justify-content: space-between;
+    height: 80px;
+    background-color: var(--color-blue-base);
+    align-items: center;
+}
+
+header a {
+    color: var(--color-white);
 }
