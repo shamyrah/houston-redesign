@@ -73,3 +73,48 @@ header a {
 .service-card.primary {
     background-color: var(--color-blue-light);
 }
+
+#login {
+    background-color: var(--color-white);
+    padding: 48px 24px;
+}
+
+#login fieldset {
+    border: none;
+}
+
+#login label, #login input {
+   display: block;
+    margin-bottom: 8px;
+}
+
+#login input {
+    border: 1.5px solid var(--color-gray-base);
+    background-color: var(--color-white);
+    padding: 8px;
+    border-radius: 6px; 
+}
+
+#login checkbox {
+    display: inline;
+}
+
+#login input[type="checkbox"] {
+    display: inline;
+    margin-bottom: 0;
+} 
+
+#login label[for="remember-me"] {
+    margin-bottom: 0;
+    display: inline;
+}
+
+#login button[type="submit"] {
+    background-color: var(--color-blue-base);
+    color: var(--color-white);
+    padding: 12px 24px;
+    border-radius: 8px;
+    width: 140px;
+    border: none;
+
+}
