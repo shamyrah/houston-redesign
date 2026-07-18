@@ -116,9 +116,17 @@ header a {
     border-radius: 8px;
     width: 140px;
     border: none;
+    cursor: pointer;
 
 }
 
-nav {
-    gap: 16px;
+#login input:focus{
+    border: 1.5px solid var(--color-blue-base);
+    outline: 3px solid var(--color-blue-base);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px var(--color-blue-base);
+}
+
+header nav a{
+    margin-left: 24px;
 }
