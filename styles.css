@@ -118,3 +118,7 @@ header a {
     border: none;
 
 }
+
+nav {
+    gap: 16px;
+}
