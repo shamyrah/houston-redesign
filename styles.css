@@ -52,6 +52,8 @@ header a {
 #hero {
     background-color: var(--color-white);
     padding: 48px 24px;
+    width: 100%;
+    height: 500px;
 
 }
 
@@ -68,6 +70,10 @@ header a {
     padding: 24px;
     margin-bottom: 16px;
     border-radius: 8px;
+    width: 360px;
+    height: 220px;
+    gap: 24px;
+    border: 2px solid var(--color-gray-base);
 }
 
 .service-card.primary {
@@ -75,16 +81,25 @@ header a {
 }
 
 #login {
-    background-color: var(--color-white);
-    padding: 48px 24px;
+    background-color: var(--color-blue-light);
+    padding: 24px 24px;
 }
 
 #login fieldset {
     border: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#login fieldset div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 #login label, #login input {
-   display: block;
+   
     margin-bottom: 8px;
 }
 
@@ -127,6 +142,20 @@ header a {
     box-shadow: 0 0 0 3px var(--color-blue-base);
 }
 
+#login form{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
 header nav a{
     margin-left: 24px;
+}
+
+#online-utility-services{
+    display: flex;
+    align-items: center;
+    height: 350px;
+    padding: 16px;
+    gap: 24px;
 }
