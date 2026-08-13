@@ -160,3 +160,8 @@ header nav a{
     gap: 24px;
 }
 
+#login fieldset #remember{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
