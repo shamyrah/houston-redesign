@@ -39,24 +39,29 @@
       <form action="login" method="post">
         <fieldset>
           <legend>Sign In to Your Account</legend>
-          <div>
-            <label for="account-number">Account Number:</label>
-            <input type="text" id="account-number" name="account-number" placeholder="0123456" autocomplete="username" required/>
-             <div id="remember">
-              <input type="checkbox" id="remember-me" name="remember-me"/>
-              <label for="remember-me">Remember Me</label></div>
+        <div>
+          <div> 
+              <label for="account-number">Account Number:</label>
+              <input type="text" id="account-number" name="account-number" placeholder="0123456" autocomplete="username" required/>
           </div>
-         
           <div>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required/>
-            <a href="#" target="_self">Forgot Password?</a>
           </div>
-          
+          <button type="submit">Sign In</button>
+        </div>
+
+        <div>
+            <div id="remember">
+              <input type="checkbox" id="remember-me" name="remember-me"/>
+              <label for="remember-me">Remember Me</label></div>
+
+              <a href="#" target="_self">Forgot Password?</a>     
+         </div>
 
         </fieldset>
         
-        <button type="submit">Sign In</button>
+       
       </form>
       </section>
 

@@ -144,7 +144,7 @@ header a {
 
 #login form{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 16px;
 }
 
@@ -163,5 +163,5 @@ header nav a{
 #login fieldset #remember{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
 }
