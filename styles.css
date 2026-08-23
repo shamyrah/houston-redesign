@@ -88,25 +88,34 @@ header a {
 #login fieldset {
     border: none;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     gap: 16px;
 }
 
-#login fieldset div{
+.field-group{
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-#login label, #login input {
-   
-    margin-bottom: 8px;
+.login-row{
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
 }
+/* TODO: 48px is a magic number — replace with structural alignment so Forgot Password stays under the password field at any screen size */
+.login-secondary{
+    display: flex;
+    gap: 48px;
+}
+
+
 
 #login input {
     border: 1.5px solid var(--color-gray-base);
     background-color: var(--color-white);
-    padding: 8px;
+    padding: 12px;
     border-radius: 6px; 
 }
 
@@ -163,5 +172,6 @@ header nav a{
 #login fieldset #remember{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    gap: 8px;
 }
