@@ -70,8 +70,7 @@ header a {
     padding: 24px;
     margin-bottom: 16px;
     border-radius: 8px;
-    width: 360px;
-    height: 220px;
+    flex: 1;
     gap: 24px;
     border: 2px solid var(--color-gray-base);
 }
@@ -163,8 +162,6 @@ header nav a{
 
 #online-utility-services{
     display: flex;
-    align-items: center;
-    height: 350px;
     padding: 16px;
     gap: 24px;
 }
